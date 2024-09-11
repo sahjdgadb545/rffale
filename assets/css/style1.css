@@ -1,0 +1,107 @@
+.glyphicon glyphicon-align-justify{
+color: black;
+}
+
+button#randomize-button1 {
+    height: 100px;
+    width: 100px;
+    font-size: 50px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	margin-bottom: -15px;
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+.right-nav{
+	padding: 10px 20px;
+}
+
+.grid-item button {
+	padding: 10px 20px;
+	font-size: 100px;
+	font-weight: bold;
+	border: none;
+	/*background-color: #0099ff;*/
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+
+		body {
+			margin: 0;
+			padding-top: 50px;
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+		}
+
+		.container {
+			max-width: 1200px;
+			margin: 0px auto;
+			/* padding: 20px; */
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+
+		.grid {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+			grid-gap: 20px;
+		}
+
+		.grid-item {
+			background-color: #fff;
+			border-radius: 5px;
+			padding: 20px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			/* height: 100vh; */
+			width: 100%; 
+			overflow: hidden;
+		}
+
+		.grid-item button {
+			padding: 10px 20px;
+			font-size: 18px;
+			font-weight: bold;
+			border: none;
+			/*background-color: #0099ff;*/
+			color: #fff;
+			border-radius: 5px;
+			cursor: pointer;
+			margin-bottom: 20px;
+			width: 100%;
+		}
+
+		.grid-item .field {
+			flex-grow: 1;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			padding: 10px;
+			font-size: 16px;
+			color: #555;
+			background-color: #f7f7f7;
+			overflow: hidden;
+		}
+
+		@media only screen and (orientation: landscape) and (min-width: 1280px) and (min-height: 800px) {
+			.grid {
+				grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+			}
+		}
